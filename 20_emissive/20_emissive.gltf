@@ -265,11 +265,6 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0.0
       },
-      "emissiveFactor": [
-        0.223529413,
-        0.223529413,
-        0.223529413
-      ],
       "name": "tetera"
     },
     {
