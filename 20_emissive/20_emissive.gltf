@@ -3,17 +3,13 @@
     "version": "2.0",
     "generator": "babylon.js glTF exporter for 3dsmax 2023 v20221031.2"
   },
-  "extensionsUsed": [
-    "KHR_lights_punctual"
-  ],
   "scene": 0,
   "scenes": [
     {
       "nodes": [
         0,
         1,
-        2,
-        3
+        2
       ]
     }
   ],
@@ -39,25 +35,6 @@
     {
       "mesh": 2,
       "name": "Box002"
-    },
-    {
-      "translation": [
-        4.8546257,
-        2.843431,
-        -0.195652232
-      ],
-      "rotation": [
-        -0.281536043,
-        0.6486427,
-        0.281536043,
-        0.648642838
-      ],
-      "name": "ArnoldLight001",
-      "extensions": {
-        "KHR_lights_punctual": {
-          "light": 0
-        }
-      }
     }
   ],
   "meshes": [
@@ -313,15 +290,5 @@
       },
       "name": "plano"
     }
-  ],
-  "extensions": {
-    "KHR_lights_punctual": {
-      "lights": [
-        {
-          "intensity": 0.0,
-          "type": "point"
-        }
-      ]
-    }
-  }
+  ]
 }
