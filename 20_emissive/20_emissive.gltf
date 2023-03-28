@@ -265,6 +265,14 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0.0
       },
+      "emissiveTexture": {
+        "index": 0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
       "name": "tetera"
     },
     {
@@ -277,13 +285,63 @@
         ],
         "metallicFactor": 0.0
       },
+      "emissiveTexture": {
+        "index": 1
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
       "name": "cubo"
     },
     {
       "pbrMetallicRoughness": {
         "metallicFactor": 0.0
       },
+      "emissiveTexture": {
+        "index": 2
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
       "name": "plano"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Teapot001_lighting.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Box001_lighting.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "Box002_lighting.png"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Teapot001_lighting.png"
+    },
+    {
+      "uri": "Box001_lighting.png"
+    },
+    {
+      "uri": "Box002_lighting.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
     }
   ]
 }
